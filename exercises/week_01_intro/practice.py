@@ -32,6 +32,10 @@ from decimal import Decimal  # noqa: F401
 # 2. Greet the user: print(f"Hello, {user_name}! Welcome to CSE 101.")
 # ------------------------------------------------------------------------------
 # TODO: Write Part 1 together in class below:
+user_name = input("Enter your name: ")
+print(f"Hello, {user_name}! Welcome to CSE 101.")
+
+
 
 
 # ------------------------------------------------------------------------------
@@ -44,7 +48,9 @@ from decimal import Decimal  # noqa: F401
 # 3. Print: print(f"You will turn {age} years old in 2026.")
 # ------------------------------------------------------------------------------
 # TODO: Write Part 2 together in class below:
-
+birth_year = int(input("Enter your birth year: "))
+age = 2026 - birth_year
+print(f"You will turn {age} years old in 2026.")
 
 # ------------------------------------------------------------------------------
 # Part 3: Float Input & Type Conversion - float()
